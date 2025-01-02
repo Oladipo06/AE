@@ -45,35 +45,3 @@ pip install -r requirements.txt
 ```
 Open and run the Jupyter notebook autoencoder.ipynb
 
-The notebook is structured in sections:
-
-Data preparation
-Model building
-Training
-Reconstruction demonstration
-Latent space visualization
-Image generation from the latent space
-
-Model Training
-The model is trained with:
-
-Binary crossentropy loss
-Adam optimizer
-Batch size of 100
-3 epochs by default
-
-Training progress is monitored using TensorBoard and model checkpoints are saved automatically.
-Results
-The notebook demonstrates:
-
-Reconstruction of test images
-2D visualization of the latent space
-Generation of new fashion items by sampling from the latent space
-Color-coded visualization of different clothing categories in the latent space
-
-Model Outputs
-Models are saved in the following locations:
-
-Complete autoencoder: ./models/autoencoder
-Encoder: ./models/encoder
-Decoder: ./models/decoder
