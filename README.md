@@ -36,7 +36,8 @@ Final convolution layer to reconstruct the image
 ### Usage
 
 Clone the repository
-```https://github.com/Oladipo06/AE.git
+```
+https://github.com/Oladipo06/AE.git
 ```
 Install the required dependencies
 Open and run the Jupyter notebook autoencoder.ipynb
