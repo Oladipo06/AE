@@ -40,6 +40,9 @@ Clone the repository
 https://github.com/Oladipo06/AE.git
 ```
 Install the required dependencies
+```
+pip install -r requirements.txt
+```
 Open and run the Jupyter notebook autoencoder.ipynb
 
 The notebook is structured in sections:
